@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MADERA ARTE Y DISEÑO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f8f4f0;
+      color: #333;
+    }
+    header {
+      background-color: #5a3e2b;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+    h2 {
+      border-bottom: 2px solid #5a3e2b;
+      padding-bottom: 0.5rem;
+      margin: 2rem 0 1rem;
+      text-align: center;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 0 2rem 2rem;
+    }
+    .producto {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .producto:hover {
+      transform: scale(1.02);
+    }
+    .producto img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .info {
+      padding: 1rem;
+    }
+    .info h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.2rem;
+    }
+    .info p {
+      margin: 0.25rem 0;
+      font-size: 0.9rem;
+    }
+    footer {
+      background-color: #5a3e2b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MADERA ARTE Y DISEÑO</h1>
+    <p>Catálogo de muebles con diseño rústico y formal</p>
+  </header>
+
+  <section>
+    <h2>Muebles de Sala</h2>
+    <div class="catalogo">
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?sofa,wood" alt="Sofá de madera">
+        <div class="info">
+          <h3>Sofá Roble Colonial</h3>
+          <p>Material: Madera de roble natural</p>
+          <p>Medidas: 200x90x85 cm</p>
+          <p>Acabado: Rústico encerado</p>
+        </div>
+      </div>
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?armchair,wood" alt="Butaca rústica">
+        <div class="info">
+          <h3>Butaca Nogal Verona</h3>
+          <p>Material: Nogal y lino beige</p>
+          <p>Medidas: 85x80x95 cm</p>
+          <p>Estilo: Vintage formal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Muebles de Cocina</h2>
+    <div class="catalogo">
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?kitchen,cabinet,wood" alt="Gabinete de cocina">
+        <div class="info">
+          <h3>Gabinete Pino Provenzal</h3>
+          <p>Material: Pino macizo</p>
+          <p>Medidas: 180x60x90 cm</p>
+          <p>Color: Blanco envejecido</p>
+        </div>
+      </div>
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?kitchen,island,wood" alt="Isla de cocina">
+        <div class="info">
+          <h3>Isla Roble Rústica</h3>
+          <p>Material: Roble americano</p>
+          <p>Medidas: 150x90x90 cm</p>
+          <p>Extras: Cajones y porta utensilios</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Comedor</h2>
+    <div class="catalogo">
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?dining-table,wood" alt="Mesa de comedor">
+        <div class="info">
+          <h3>Mesa Rústica Encina</h3>
+          <p>Material: Encina maciza</p>
+          <p>Medidas: 200x100x75 cm</p>
+          <p>Capacidad: 8 personas</p>
+        </div>
+      </div>
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?dining-chairs,wood" alt="Sillas de comedor">
+        <div class="info">
+          <h3>Juego de Sillas Estilo Campiña</h3>
+          <p>Material: Madera y cuero ecológico</p>
+          <p>Set: 6 piezas</p>
+          <p>Estilo: Rústico elegante</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dormitorio</h2>
+    <div class="catalogo">
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?bed,wood" alt="Cama de madera">
+        <div class="info">
+          <h3>Cama Roble Imperial</h3>
+          <p>Material: Roble oscuro</p>
+          <p>Medidas: Queen size</p>
+          <p>Estilo: Cabezal alto tallado</p>
+        </div>
+      </div>
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?nightstand,wood" alt="Mesa de noche">
+        <div class="info">
+          <h3>Buró Nogal Clásico</h3>
+          <p>Material: Nogal y hierro forjado</p>
+          <p>Medidas: 50x40x60 cm</p>
+          <p>Acabado: Mate natural</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Oficina</h2>
+    <div class="catalogo">
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?desk,wood" alt="Escritorio de oficina">
+        <div class="info">
+          <h3>Escritorio Cedro Ejecutivo</h3>
+          <p>Material: Cedro rojo</p>
+          <p>Medidas: 160x70x75 cm</p>
+          <p>Extras: 3 cajones ocultos</p>
+        </div>
+      </div>
+      <div class="producto">
+        <img src="https://source.unsplash.com/400x300/?bookshelf,wood" alt="Librero de madera">
+        <div class="info">
+          <h3>Librero Vintage Londres</h3>
+          <p>Material: Teca reciclada</p>
+          <p>Medidas: 180x90x35 cm</p>
+          <p>Estilo: Industrial formal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MADERA ARTE Y DISEÑO. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
